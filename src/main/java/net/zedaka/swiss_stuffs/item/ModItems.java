@@ -31,6 +31,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> SWISS_ARMY_KNIFE = ITEMS.register("swiss_army_knife",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SWISS_CHEESE = ITEMS.register("swiss_cheese",
+            () -> new Item(new Item.Properties().food(ModFoods.SWISS_CHEESE)));
+    public static final RegistryObject<Item> SWISS_RIVELLA = ITEMS.register("swiss_rivella",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

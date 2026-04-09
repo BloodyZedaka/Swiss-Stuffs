@@ -19,6 +19,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         // Copy the line " pOutput.accept(ModItems.MOD_ITEM.get());" to add items
                         pOutput.accept(ModItems.SWISS_ARMY_KNIFE.get());
+                        pOutput.accept(ModItems.SWISS_CHEESE.get());
+                        pOutput.accept(ModItems.SWISS_RIVELLA.get());
                     })
                     .build());
 

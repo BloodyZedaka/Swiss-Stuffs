@@ -1,7 +1,9 @@
 {
   "creativetab.swiss_stuffs_tab" : "Trucs Suisse",
   "item.swiss_stuffs.swiss_flag" : "Drapeau Suisse",
-  "tooltip.swiss_stuffs.swiss_flag.tooltip": "Tu n'étais pas supposé voir ça...",
+    "tooltip.swiss_stuffs.swiss_flag.tooltip": "Tu n'étais pas supposé avoir ça...",
 
-  "item.swiss_stuffs.swiss_army_knife" : "Couteau Suisse"
+  "item.swiss_stuffs.swiss_army_knife" : "Couteau Suisse",
+  "item.swiss_stuffs.swiss_cheese" : "Fromage Suisse",
+  "item.swiss_stuffs.swiss_rivella" : "Rivella"
 }

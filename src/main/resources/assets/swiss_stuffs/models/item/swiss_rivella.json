@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "swiss_stuffs:item/swiss_rivella"
+  }
+}

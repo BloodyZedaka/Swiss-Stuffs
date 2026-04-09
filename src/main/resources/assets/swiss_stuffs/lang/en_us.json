@@ -1,7 +1,9 @@
 {
   "creativetab.swiss_stuffs_tab" : "Swiss Stuffs",
   "item.swiss_stuffs.swiss_flag" : "Swiss Flag",
-  "tooltip.swiss_stuffs.swiss_flag.tooltip": "You weren't supposed to see this...",
+    "tooltip.swiss_stuffs.swiss_flag.tooltip": "You weren't supposed to get this...",
 
-  "item.swiss_stuffs.swiss_army_knife" : "Swiss Army Knife"
+  "item.swiss_stuffs.swiss_army_knife" : "Swiss Army Knife",
+  "item.swiss_stuffs.swiss_cheese" : "Swiss Cheese",
+  "item.swiss_stuffs.swiss_rivella" : "Rivella"
 }
