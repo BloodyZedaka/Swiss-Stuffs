@@ -14,7 +14,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Swiss_Stuffs.MODID);
 
     public static final RegistryObject<CreativeModeTab> SWISS_STUFFS_TAB = CREATIVE_MODE_TABS.register("swiss_stuffs_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SWISS_FLAG.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SWISS_ARMY_KNIFE.get()))
                     .title(Component.translatable("creativetab.swiss_stuffs_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         // Copy the line " pOutput.accept(ModItems.MOD_ITEM.get());" to add items

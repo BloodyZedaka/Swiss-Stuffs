@@ -1,6 +1,18 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "swiss_stuffs:item/swiss_army_knife"
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "swiss_stuffs:item/swiss_army_knife_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "swiss_stuffs:item/swiss_army_knife_2d"
+    },
+    "ground": {
+      "parent": "swiss_stuffs:item/swiss_army_knife_3d"
+    },
+    "fixed": {
+      "parent": "swiss_stuffs:item/swiss_army_knife_2d"
+    }
   }
 }

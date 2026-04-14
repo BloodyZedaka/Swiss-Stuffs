@@ -1,0 +1,98 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "swiss_stuffs:item/swiss_army_knife_3d",
+		"particle": "swiss_stuffs:item/swiss_army_knife_3d"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, 7],
+			"to": [8.5, 4, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 1, 8], "texture": "#3"},
+				"east": {"uv": [0, 0, 2, 4], "texture": "#3"},
+				"south": {"uv": [4, 0, 5, 4], "texture": "#3"},
+				"west": {"uv": [2, 0, 4, 4], "texture": "#3"},
+				"up": {"uv": [2, 6, 1, 4], "texture": "#3"},
+				"down": {"uv": [3, 4, 2, 6], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8, 1.5, 6],
+			"to": [8, 3.5, 7],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 2, 6.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 2], "texture": "#3"},
+				"east": {"uv": [3, 4, 4, 6], "texture": "#3"},
+				"south": {"uv": [0, 0, 0, 2], "texture": "#3"},
+				"west": {"uv": [4, 4, 5, 6], "texture": "#3"},
+				"up": {"uv": [0, 1, 0, 0], "texture": "#3"},
+				"down": {"uv": [0, 0, 0, 1], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8, 0.5, 5],
+			"to": [8, 2.5, 6],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 2, 6.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 2], "texture": "#3"},
+				"east": {"uv": [5, 0, 6, 2], "texture": "#3"},
+				"south": {"uv": [0, 0, 0, 2], "texture": "#3"},
+				"west": {"uv": [5, 2, 6, 4], "texture": "#3"},
+				"up": {"uv": [0, 1, 0, 0], "texture": "#3"},
+				"down": {"uv": [0, 0, 0, 1], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.75, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 7, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [-2, 10, 4]
+		},
+		"firstperson_lefthand": {
+			"translation": [-2, 10, 4]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 12, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 11, 0],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [0, 90, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Swiss Army Knife",
+			"origin": [0, 0, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "Blade",
+					"origin": [8, 2, 9],
+					"scope": 0,
+					"color": 0,
+					"children": [1, 2]
+				}
+			]
+		}
+	]
+}
